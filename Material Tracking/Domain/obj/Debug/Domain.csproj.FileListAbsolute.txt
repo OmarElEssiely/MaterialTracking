@@ -1,0 +1,5 @@
+c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Domain\bin\Debug\Domain.dll
+c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Domain\bin\Debug\Domain.pdb
+c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Domain\obj\Debug\Domain.dll
+c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Domain\obj\Debug\Domain.pdb
+C:\Users\Omar El-Essiely\Documents\Visual Studio 2017\Projects\MaterialTracking\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
