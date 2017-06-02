@@ -61,9 +61,52 @@
     <Compile Include="Admins\Queries\GetAdminList\GetAdminListQuery.cs" />
     <Compile Include="Admins\Queries\GetAdminList\IGetAdminListQuery.cs" />
     <Compile Include="Interfaces\IDatabaseService.cs" />
+    <Compile Include="Projects\Commands\CreateProject\CreateProjectCommand.cs" />
+    <Compile Include="Projects\Commands\CreateProject\CreateProjectModel.cs" />
+    <Compile Include="Projects\Commands\CreateProject\ICreateProjectCommand.cs" />
+    <Compile Include="Projects\Commands\DeleteProject\DeleteProjectCommand.cs" />
+    <Compile Include="Projects\Commands\DeleteProject\IDeleteProjectCommand.cs" />
+    <Compile Include="Projects\Commands\Factory\IProjectFactory.cs" />
+    <Compile Include="Projects\Commands\Factory\ProjectFactory.cs" />
+    <Compile Include="Projects\Commands\UpdateProject\IUpdateProjectCommand.cs" />
+    <Compile Include="Projects\Commands\UpdateProject\UpdateProjectCommand.cs" />
+    <Compile Include="Projects\Commands\UpdateProject\UpdateProjectModel.cs" />
+    <Compile Include="Projects\Queries\GetProjectList\GetProjectListQuery.cs" />
+    <Compile Include="Projects\Queries\GetProjectList\IGetProjectListQuery.cs" />
+    <Compile Include="Projects\Queries\GetProjectList\ProjectModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role\Commands\CreateRole\CreateRoleCommand.cs" />
+    <Compile Include="Role\Commands\CreateRole\CreateRoleModel.cs" />
+    <Compile Include="Role\Commands\CreateRole\ICreateRoleCommand.cs" />
+    <Compile Include="Role\Commands\DeleteRole\DeleteRoleCommand.cs" />
+    <Compile Include="Role\Commands\DeleteRole\IDeleteRoleCommand.cs" />
+    <Compile Include="Role\Commands\Factory\IRoleFactory.cs" />
+    <Compile Include="Role\Commands\Factory\RoleFactory.cs" />
+    <Compile Include="Role\Commands\UpdateRole\IUpdateRoleCommand.cs" />
+    <Compile Include="Role\Commands\UpdateRole\UpdateRoleCommand.cs" />
+    <Compile Include="Role\Commands\UpdateRole\UpdateRoleModel.cs" />
+    <Compile Include="Role\Queries\GetRoleList\GetRoleListQuery.cs" />
+    <Compile Include="Role\Queries\GetRoleList\IGetRoleListQuery.cs" />
+    <Compile Include="Role\Queries\GetRoleList\RoleModel.cs" />
+    <Compile Include="Users\Commands\CreateUser\CreateUserCommand.cs" />
+    <Compile Include="Users\Commands\CreateUser\CreateUserModel.cs" />
+    <Compile Include="Users\Commands\CreateUser\ICreateUserCommand.cs" />
+    <Compile Include="Users\Commands\DeleteUser\DeleteUserCommand.cs" />
+    <Compile Include="Users\Commands\DeleteUser\IDeleteUserCommand.cs" />
+    <Compile Include="Users\Commands\Factory\IUserFactory.cs" />
+    <Compile Include="Users\Commands\Factory\UserFactory.cs" />
+    <Compile Include="Users\Commands\UpdateUser\IUpdateUserCommand.cs" />
+    <Compile Include="Users\Commands\UpdateUser\UpdateUserCommand.cs" />
+    <Compile Include="Users\Commands\UpdateUser\UpdateUserModel.cs" />
+    <Compile Include="Users\Queries\GetUserList\GetUserListQuery.cs" />
+    <Compile Include="Users\Queries\GetUserList\IGetUserListQuery.cs" />
+    <Compile Include="Users\Queries\GetUserList\UserModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{94fff8ef-72a8-4cef-a997-227aa058b9a6}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{feb4948f-cfef-4c5c-a25e-2a8ce5eb035d}</Project>
       <Name>Domain</Name>

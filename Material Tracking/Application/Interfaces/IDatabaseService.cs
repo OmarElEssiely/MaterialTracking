@@ -15,7 +15,7 @@ namespace Application.Interfaces
         IDbSet<ProjectFile> ProjectFiles { get; set; }
         IDbSet<ProjectFolder> ProjectFolders { get; set; }
         IDbSet<ProjectSubFolder> ProjectSubFolders { get; set; }
-        IDbSet<Role> Roles { get; set; }
+        IDbSet<Domain.Role> Roles { get; set; }
         IDbSet<User> Users { get; set; }
         IDbSet<UserProjectRole> UserProjectRoles { get; set; }
         void Save();
