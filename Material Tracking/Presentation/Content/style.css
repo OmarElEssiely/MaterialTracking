@@ -1,0 +1,149 @@
+md-content.md-default-theme {
+    background-color: #eee;
+}
+
+md-card {
+    background-color: #fff;
+}
+
+    md-card h2:first-of-type {
+        margin-top: 0;
+    }
+
+md-toolbar .md-button.md-default-theme {
+    border-radius: 99%;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.md-toolbar-tools-bottom {
+    font-size: small;
+}
+
+    .md-toolbar-tools-bottom :last-child {
+        opacity: 0.8;
+    }
+
+md-toolbar:not(.md-hue-1),
+.md-fab {
+    fill: #fff;
+}
+
+md-sidenav {
+    fill: #737373;
+}
+
+    md-sidenav ng-md-icon {
+        position: relative;
+        top: 5px;
+    }
+
+.user-avatar {
+    border-radius: 99%;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings'; /* essential for enabling glyphicon */
+    content: "\e114"; /* adjust as needed, taken from bootstrap.css */
+    float: right; /* adjust as needed */
+    color: grey; /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080"; /* adjust as needed, taken from bootstrap.css */
+}
+
+
+
+.md-table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+    .md-table tbody tr:hover, .md-table tbody tr:focus {
+        cursor: pointer;
+        background-color: rgba(63,81,181,0.2);
+    }
+
+.md-table-header {
+    border-bottom: 1px solid rgb(230,230,230);
+    color: rgb(130,130,130);
+    text-align: left;
+    font-size: 0.75em;
+    font-weight: 700;
+    padding: 16px 16px 16px 0;
+}
+
+    .md-table-header a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.md-table-content {
+    white-space: nowrap;
+    font-size: 0.8em;
+    padding: 16px 16px 16px 0;
+    height: 72px;
+}
+
+.md-table-td-more {
+    max-width: 72px;
+    width: 72px;
+    padding: 16px;
+}
+
+.md-table-thumbs {
+    max-width: 104px;
+    width: 104px;
+    padding: 16px 32px;
+}
+
+    .md-table-thumbs div {
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid rgba(0,0,0,0.2);
+        background-size: cover;
+        box-shadow: 0 8px 10px rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 8px 10px rgba(0,0,0,.1);
+    }
+
+.md-table-footer {
+    height: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.md-table-count-info {
+    line-height: 40px;
+    font-size: .75em;
+}
+
+.md-table-footer-item {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.md-table-active-page {
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.grey {
+    color: grey;
+}
+
+md-input-container.md-default-theme .md-input {
+    color: white;
+    border-color: white;
+    margin-top: 24px;
+}
