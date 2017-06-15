@@ -20,6 +20,7 @@ namespace Application.Users.Queries.GetUserList
         {
             var users = _database.Users.Select(p => new UserModel()
             {
+                UserId = p.UserId,
                 Email = p.Email,
                 Password = p.Password,
                 Name = p.Name,

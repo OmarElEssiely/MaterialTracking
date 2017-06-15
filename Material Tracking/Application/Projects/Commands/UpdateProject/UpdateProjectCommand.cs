@@ -27,6 +27,8 @@ namespace Application.Projects.Commands.UpdateProject
                 project.ProjectSapNumber = model.ProjectSapNumber;
                 project.StartDate = model.StartDate;
                 project.Status = model.Status;
+                project.ClosedDate = model.ClosedDate;
+                project.Budget = model.Budget;
                 _database.Save();
             }
         }

@@ -8,7 +8,7 @@ namespace Application.Projects.Commands.CreateProject
 {
     public interface ICreateProjectCommand
     {
-        void Execute(CreateProjectModel model);
+        int Execute(CreateProjectModel model);
 
     }
 }

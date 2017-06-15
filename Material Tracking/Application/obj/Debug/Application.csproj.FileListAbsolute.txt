@@ -1,12 +1,14 @@
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\Application.dll.config
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\Application.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\Application.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\Domain.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\EntityFramework.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\EntityFramework.SqlServer.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\Domain.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\EntityFramework.xml
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\bin\Debug\EntityFramework.SqlServer.xml
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\obj\Debug\Application.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Application\obj\Debug\Application.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Application.dll.config
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Application.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Application.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\EntityFramework.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Common.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Domain.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Common.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\MT.Domain.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\EntityFramework.xml
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\obj\Debug\MT.Application.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Application\obj\Debug\MT.Application.pdb

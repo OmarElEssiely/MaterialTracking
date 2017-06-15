@@ -8,7 +8,7 @@ using Application.Interfaces;
 
 namespace Application.Admins.Queries.GetAdminList
 {
-    class GetAdminListQuery :IGetAdminListQuery
+    public class GetAdminListQuery :IGetAdminListQuery
     {
         private readonly IDatabaseService _database;
 

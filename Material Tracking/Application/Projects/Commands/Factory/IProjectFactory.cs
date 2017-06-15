@@ -17,7 +17,8 @@ namespace Application.Projects.Commands.Factory
             DateTime endDate,
             DateTime creationDate,
             string description,
-            string status);
+            string status,
+            decimal budget);
 
     }
 }

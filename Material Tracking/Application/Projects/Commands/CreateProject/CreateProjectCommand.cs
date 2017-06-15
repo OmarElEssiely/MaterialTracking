@@ -24,7 +24,7 @@ namespace Application.Projects.Commands.CreateProject
 
         }
 
-        public void Execute(CreateProjectModel model)
+        public int Execute(CreateProjectModel model)
         {
             var date = _dateService.GetDate();
             var project = _factory.Create(
@@ -34,9 +34,12 @@ namespace Application.Projects.Commands.CreateProject
                 model.EndDate,
                 date,
                 model.Description,
-                model.Status);
+                model.Status,
+                model.Budget);
             _database.Projects.Add(project);
             _database.Save();
+            return _database.Projects.FirstOrDefault(p=>p.ProjectSapNumber == model.ProjectSapNumber).ProjectId;
+           
         }
 
     }

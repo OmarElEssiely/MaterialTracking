@@ -8,7 +8,7 @@ using Application.Interfaces;
 
 namespace Application.Admins.Commands.CreateAdmin
 {
-    class CreateAdminCommand:ICreateAdminCommand
+    public class CreateAdminCommand:ICreateAdminCommand
     {
         private readonly IDatabaseService _database;
         private readonly IAdminFactory _factory;

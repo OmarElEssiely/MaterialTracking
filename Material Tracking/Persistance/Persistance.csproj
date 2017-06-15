@@ -7,10 +7,14 @@
     <ProjectGuid>{5279AEB9-1F45-474E-AE34-3DF9395521E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Persistance</RootNamespace>
-    <AssemblyName>Persistance</AssemblyName>
+    <RootNamespace>MT.Persistance</RootNamespace>
+    <AssemblyName>MT.Persistance</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,21 +51,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminConfiguration.cs" />
+    <Compile Include="AdminConfigurations\AdminConfiguration.cs" />
     <Compile Include="DatabaseService.cs" />
+    <Compile Include="InstallmentConfigurations\InstallmentConfiguration.cs" />
+    <Compile Include="IPRConfigurations\IPRConfiguration.cs" />
+    <Compile Include="IPRConfigurations\IPRPoConfiguration.cs" />
     <Compile Include="Migrations\201706011148215_FirstIteration.cs" />
     <Compile Include="Migrations\201706011148215_FirstIteration.Designer.cs">
       <DependentUpon>201706011148215_FirstIteration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706090002214_UpdateProject.cs" />
+    <Compile Include="Migrations\201706090002214_UpdateProject.Designer.cs">
+      <DependentUpon>201706090002214_UpdateProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706092138104_AddInstallment.cs" />
+    <Compile Include="Migrations\201706092138104_AddInstallment.Designer.cs">
+      <DependentUpon>201706092138104_AddInstallment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706122202004_RFQIPR.cs" />
+    <Compile Include="Migrations\201706122202004_RFQIPR.Designer.cs">
+      <DependentUpon>201706122202004_RFQIPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706150912199_RFQandIPR.cs" />
+    <Compile Include="Migrations\201706150912199_RFQandIPR.Designer.cs">
+      <DependentUpon>201706150912199_RFQandIPR.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="ProjectConfiguration.cs" />
-    <Compile Include="ProjectFilesConfiguration.cs" />
-    <Compile Include="ProjectFolderConfiguration.cs" />
-    <Compile Include="ProjectSubFolderConfiguration.cs" />
+    <Compile Include="ProjectConfigurations\ProjectConfiguration.cs" />
+    <Compile Include="ProjectConfigurations\ProjectFilesConfiguration.cs" />
+    <Compile Include="ProjectConfigurations\ProjectFolderConfiguration.cs" />
+    <Compile Include="ProjectConfigurations\ProjectSubFolderConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoleConfiguration.cs" />
-    <Compile Include="UserConfiguration.cs" />
-    <Compile Include="UserProjectRoleConfiguration.cs" />
+    <Compile Include="RFQConfigurations\RFQConfiguration.cs" />
+    <Compile Include="RFQConfigurations\RFQItemConfiguration.cs" />
+    <Compile Include="RFQConfigurations\RFQOfferConfiguration.cs" />
+    <Compile Include="RoleConfigurations\RoleConfiguration.cs" />
+    <Compile Include="UserConfigurations\UserConfiguration.cs" />
+    <Compile Include="UserConfigurations\UserProjectRoleConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj">
@@ -81,6 +107,19 @@
     <EmbeddedResource Include="Migrations\201706011148215_FirstIteration.resx">
       <DependentUpon>201706011148215_FirstIteration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706090002214_UpdateProject.resx">
+      <DependentUpon>201706090002214_UpdateProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706092138104_AddInstallment.resx">
+      <DependentUpon>201706092138104_AddInstallment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706122202004_RFQIPR.resx">
+      <DependentUpon>201706122202004_RFQIPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706150912199_RFQandIPR.resx">
+      <DependentUpon>201706150912199_RFQandIPR.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

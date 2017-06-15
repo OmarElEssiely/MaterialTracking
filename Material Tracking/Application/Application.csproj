@@ -7,10 +7,14 @@
     <ProjectGuid>{2E7C2BFC-C0DA-4822-A1A4-EFF930A696CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Application</RootNamespace>
-    <AssemblyName>Application</AssemblyName>
+    <RootNamespace>MT.Application</RootNamespace>
+    <AssemblyName>MT.Application</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,10 +61,69 @@
     <Compile Include="Admins\Commands\UpdateAdmin\IUpdateAdminCommand.cs" />
     <Compile Include="Admins\Commands\UpdateAdmin\UpdateAdminCommand.cs" />
     <Compile Include="Admins\Commands\UpdateAdmin\UpdateAdminModel.cs" />
+    <Compile Include="Admins\Queries\GetAdminByPassword\AdminModel.cs" />
+    <Compile Include="Admins\Queries\GetAdminByPassword\GetAdminByPasswordQuery.cs" />
+    <Compile Include="Admins\Queries\GetAdminByPassword\IGetAdminByPasswordQuery.cs" />
     <Compile Include="Admins\Queries\GetAdminList\AdminModel.cs" />
     <Compile Include="Admins\Queries\GetAdminList\GetAdminListQuery.cs" />
     <Compile Include="Admins\Queries\GetAdminList\IGetAdminListQuery.cs" />
     <Compile Include="Interfaces\IDatabaseService.cs" />
+    <Compile Include="IPRPos\Commands\Delete\DeleteIprPoCommand.cs" />
+    <Compile Include="IPRPos\Commands\Delete\IDeleteIprPoCommand.cs" />
+    <Compile Include="IPRPos\Commands\Upload\Factory\IUploadIprPoFactory.cs" />
+    <Compile Include="IPRPos\Commands\Upload\Factory\UploadIprPoFactory.cs" />
+    <Compile Include="IPRPos\Commands\Upload\IUploadIprPoCommand.cs" />
+    <Compile Include="IPRPos\Commands\Upload\UploadIprPoCommand.cs" />
+    <Compile Include="IPRPos\Commands\Upload\UploadIprPoModel.cs" />
+    <Compile Include="IPRPos\Queries\GetIprPo\GetIprPoQuery.cs" />
+    <Compile Include="IPRPos\Queries\GetIprPo\GetIprPoModel.cs" />
+    <Compile Include="IPRPos\Queries\GetIprPo\IGetIprPoQuery.cs" />
+    <Compile Include="IPRs\Commands\Delete\DeleteIprCommand.cs" />
+    <Compile Include="IPRs\Commands\Delete\IDeleteIprCommand.cs" />
+    <Compile Include="IPRs\Commands\Upload\Factory\IUploadIprFactory.cs" />
+    <Compile Include="IPRs\Commands\Upload\Factory\UploadIprFactory.cs" />
+    <Compile Include="IPRs\Commands\Upload\IUploadIprCommand.cs" />
+    <Compile Include="IPRs\Commands\Upload\UploadIprCommand.cs" />
+    <Compile Include="IPRs\Commands\Upload\UploadIprModel.cs" />
+    <Compile Include="IPRs\Queries\GetProjectIPRs\GetProjectIprCommand.cs" />
+    <Compile Include="IPRs\Queries\GetProjectIPRs\GetProjectIprModel.cs" />
+    <Compile Include="IPRs\Queries\GetProjectIPRs\IGetProjectIprCommand.cs" />
+    <Compile Include="IPRs\Queries\GetRFQIPRs\GetRfqIprCommand.cs" />
+    <Compile Include="IPRs\Queries\GetRFQIPRs\GetRfqIprModel.cs" />
+    <Compile Include="IPRs\Queries\GetRFQIPRs\IGetRfqIprCommand.cs" />
+    <Compile Include="ProjectFiles\Commands\UploadProjectFiles\Factory\IProjectFileFactory.cs" />
+    <Compile Include="ProjectFiles\Commands\UploadProjectFiles\Factory\ProjectFileFactory.cs" />
+    <Compile Include="ProjectFiles\Commands\UploadProjectFiles\IUploadProjectFileCommand.cs" />
+    <Compile Include="ProjectFiles\Commands\UploadProjectFiles\UploadProjectFileCommand.cs" />
+    <Compile Include="ProjectFiles\Commands\UploadProjectFiles\UploadProjectFileModel.cs" />
+    <Compile Include="ProjectFiles\Queries\GetProjectFilesList\GetProjectFilesQuery.cs" />
+    <Compile Include="ProjectFiles\Queries\GetProjectFilesList\IGetProjectFilesQuery.cs" />
+    <Compile Include="ProjectFiles\Queries\GetProjectFilesList\ProjectFilesModel.cs" />
+    <Compile Include="ProjectFolders\Queries\GetFoldersList\GetProjectFoldersQuery.cs" />
+    <Compile Include="ProjectFolders\Queries\GetFoldersList\IGetProjectFoldersQuery.cs" />
+    <Compile Include="ProjectFolders\Queries\GetFoldersList\ProjectFolderModel.cs" />
+    <Compile Include="ProjectInstallments\Commands\AddInstallment\AddInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\AddInstallment\AddInstallmentModel.cs" />
+    <Compile Include="ProjectInstallments\Commands\AddInstallment\Factory\IInstallmentFactory.cs" />
+    <Compile Include="ProjectInstallments\Commands\AddInstallment\Factory\InstallmentFactory.cs" />
+    <Compile Include="ProjectInstallments\Commands\AddInstallment\IAddInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\DeleteInstallment\DeleteInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\DeleteInstallment\DeleteInstallmentModel.cs" />
+    <Compile Include="ProjectInstallments\Commands\DeleteInstallment\IDeleteInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\UpdateInstallment\Factory\IUpdateInstallmentFactory.cs" />
+    <Compile Include="ProjectInstallments\Commands\UpdateInstallment\Factory\UpdateInstallmentFactory.cs" />
+    <Compile Include="ProjectInstallments\Commands\UpdateInstallment\IUpdateInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\UpdateInstallment\UpdateInstallmentCommand.cs" />
+    <Compile Include="ProjectInstallments\Commands\UpdateInstallment\UpdateInstallmentModel.cs" />
+    <Compile Include="ProjectInstallments\Queries\ProjectInstallmentsModel.cs" />
+    <Compile Include="ProjectInstallments\Queries\GetProjectInstallmentsQuery.cs" />
+    <Compile Include="ProjectInstallments\Queries\IGetProjectInstallmentsQuery.cs" />
+    <Compile Include="ProjectSubFolders\Commands\ChangePath\ChangePathCommand.cs" />
+    <Compile Include="ProjectSubFolders\Commands\ChangePath\ChangePathModel.cs" />
+    <Compile Include="ProjectSubFolders\Commands\ChangePath\IChangePathCommand.cs" />
+    <Compile Include="ProjectSubFolders\Queries\IProjectSubFoldersQuery.cs" />
+    <Compile Include="ProjectSubFolders\Queries\ProjectSubFoldersModel.cs" />
+    <Compile Include="ProjectSubFolders\Queries\ProjectSubFoldersQuery.cs" />
     <Compile Include="Projects\Commands\CreateProject\CreateProjectCommand.cs" />
     <Compile Include="Projects\Commands\CreateProject\CreateProjectModel.cs" />
     <Compile Include="Projects\Commands\CreateProject\ICreateProjectCommand.cs" />
@@ -71,10 +134,65 @@
     <Compile Include="Projects\Commands\UpdateProject\IUpdateProjectCommand.cs" />
     <Compile Include="Projects\Commands\UpdateProject\UpdateProjectCommand.cs" />
     <Compile Include="Projects\Commands\UpdateProject\UpdateProjectModel.cs" />
+    <Compile Include="Projects\Queries\GetProjectById\GetProjectByIdQuery.cs" />
+    <Compile Include="Projects\Queries\GetProjectById\IGetProjectByIdQuery.cs" />
+    <Compile Include="Projects\Queries\GetProjectById\ProjectModel.cs" />
     <Compile Include="Projects\Queries\GetProjectList\GetProjectListQuery.cs" />
     <Compile Include="Projects\Queries\GetProjectList\IGetProjectListQuery.cs" />
     <Compile Include="Projects\Queries\GetProjectList\ProjectModel.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\AddUserRole\AddUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\AddUserRole\AddUserRoleModel.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\AddUserRole\Factory\IUserRoleFactory.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\AddUserRole\Factory\UserRoleFactory.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\AddUserRole\IAddUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\DeleteUserRole\DeleteUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\DeleteUserRole\DeleteUserRoleModel.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\DeleteUserRole\IDeleteUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\UpdateUserRole\Factory\IUpdateUserRoleFactory.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\UpdateUserRole\Factory\UpdateUserRoleFactory.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\UpdateUserRole\IUpdateUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\UpdateUserRole\UpdateUserRoleCommand.cs" />
+    <Compile Include="ProjectUsersRoles\Commands\UpdateUserRole\UpdateUserRoleModel.cs" />
+    <Compile Include="ProjectUsersRoles\Queries\GetProjectUsersRolesQuery.cs" />
+    <Compile Include="ProjectUsersRoles\Queries\IGetProjectUsersRolesQuery.cs" />
+    <Compile Include="ProjectUsersRoles\Queries\ProjectUserRoleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RFQItems\Commands\Create\CreateRfqItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Create\Factory\IRfqItemFactory.cs" />
+    <Compile Include="RFQItems\Commands\Create\Factory\RfqItemFactory.cs" />
+    <Compile Include="RFQItems\Commands\Create\ICreateRfqItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Create\CreateRfqItemModel.cs" />
+    <Compile Include="RFQItems\Commands\Delete\DeleteRqfItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Delete\IDeleteRqfItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Update\IUpdateRfqItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Update\UpdateRfqItemCommand.cs" />
+    <Compile Include="RFQItems\Commands\Update\UpdateRfqItemModel.cs" />
+    <Compile Include="RFQItems\Querys\GetRfqItems\GetRfqItemQuery.cs" />
+    <Compile Include="RFQItems\Querys\GetRfqItems\IGetRfqItemQuery.cs" />
+    <Compile Include="RFQItems\Querys\GetRfqItems\RfqItemModel.cs" />
+    <Compile Include="RFQOffers\Commands\Delete\DeleteOfferCommand.cs" />
+    <Compile Include="RFQOffers\Commands\Delete\IDeleteOfferCommand.cs" />
+    <Compile Include="RFQOffers\Commands\Upload\Factory\IUploadOfferFactory.cs" />
+    <Compile Include="RFQOffers\Commands\Upload\Factory\UploadOfferFactory.cs" />
+    <Compile Include="RFQOffers\Commands\Upload\IUploadOfferCommand.cs" />
+    <Compile Include="RFQOffers\Commands\Upload\UploadOfferCommand.cs" />
+    <Compile Include="RFQOffers\Commands\Upload\UploadOfferModel.cs" />
+    <Compile Include="RFQOffers\Queries\GetRFQOffers\GetRfqOfferCommand.cs" />
+    <Compile Include="RFQOffers\Queries\GetRFQOffers\GetRfqOfferModel.cs" />
+    <Compile Include="RFQOffers\Queries\GetRFQOffers\IGetRfqOfferCommand.cs" />
+    <Compile Include="RFQs\Commands\Delete\DeleteRfqCommand.cs" />
+    <Compile Include="RFQs\Commands\Delete\IDeleteRFQCommand.cs" />
+    <Compile Include="RFQs\Commands\Update\IUpdateRfqCommand.cs" />
+    <Compile Include="RFQs\Commands\Update\UpdateRfqCommand.cs" />
+    <Compile Include="RFQs\Commands\Update\UpdateRfqModel.cs" />
+    <Compile Include="RFQs\Commands\Create\Factory\ICreateRfqFactory.cs" />
+    <Compile Include="RFQs\Commands\Create\Factory\CreateRfqFactory.cs" />
+    <Compile Include="RFQs\Commands\Create\ICreateRfqCommand.cs" />
+    <Compile Include="RFQs\Commands\Create\CreateRfqCommand.cs" />
+    <Compile Include="RFQs\Commands\Create\CreateRfqModel.cs" />
+    <Compile Include="RFQs\Queries\GetRfqsQuery\GetRfqQuery.cs" />
+    <Compile Include="RFQs\Queries\GetRfqsQuery\IGetRfqQuery.cs" />
+    <Compile Include="RFQs\Queries\GetRfqsQuery\RfqModel.cs" />
     <Compile Include="Role\Commands\CreateRole\CreateRoleCommand.cs" />
     <Compile Include="Role\Commands\CreateRole\CreateRoleModel.cs" />
     <Compile Include="Role\Commands\CreateRole\ICreateRoleCommand.cs" />
@@ -85,6 +203,9 @@
     <Compile Include="Role\Commands\UpdateRole\IUpdateRoleCommand.cs" />
     <Compile Include="Role\Commands\UpdateRole\UpdateRoleCommand.cs" />
     <Compile Include="Role\Commands\UpdateRole\UpdateRoleModel.cs" />
+    <Compile Include="Role\Queries\GetRoleById\GetRoleByIdQuery.cs" />
+    <Compile Include="Role\Queries\GetRoleById\IGetRoleByIdQuery.cs" />
+    <Compile Include="Role\Queries\GetRoleById\RoleModel.cs" />
     <Compile Include="Role\Queries\GetRoleList\GetRoleListQuery.cs" />
     <Compile Include="Role\Queries\GetRoleList\IGetRoleListQuery.cs" />
     <Compile Include="Role\Queries\GetRoleList\RoleModel.cs" />
@@ -98,6 +219,9 @@
     <Compile Include="Users\Commands\UpdateUser\IUpdateUserCommand.cs" />
     <Compile Include="Users\Commands\UpdateUser\UpdateUserCommand.cs" />
     <Compile Include="Users\Commands\UpdateUser\UpdateUserModel.cs" />
+    <Compile Include="Users\Queries\GetUserByPassword\GetUserByPasswordQuery.cs" />
+    <Compile Include="Users\Queries\GetUserByPassword\IGetUserByPasswordQuery.cs" />
+    <Compile Include="Users\Queries\GetUserByPassword\UserModel.cs" />
     <Compile Include="Users\Queries\GetUserList\GetUserListQuery.cs" />
     <Compile Include="Users\Queries\GetUserList\IGetUserListQuery.cs" />
     <Compile Include="Users\Queries\GetUserList\UserModel.cs" />
@@ -116,6 +240,8 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ProjectFolders\Commands\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

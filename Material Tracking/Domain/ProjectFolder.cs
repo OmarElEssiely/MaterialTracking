@@ -10,5 +10,7 @@ namespace Domain
     {
         public int ProjectFolderId { get; set; }
         public string Name { get; set; }
+        public ICollection<ProjectSubFolder> ProjectSubFolders { get; set; }
+
     }
 }

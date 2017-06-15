@@ -1,0 +1,4 @@
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Common\bin\Debug\MT.Common.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Common\bin\Debug\MT.Common.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Common\obj\Debug\MT.Common.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Common\obj\Debug\MT.Common.pdb

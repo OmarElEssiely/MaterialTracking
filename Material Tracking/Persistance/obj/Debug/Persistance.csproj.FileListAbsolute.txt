@@ -1,17 +1,23 @@
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Persistance.dll.config
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Persistance.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Persistance.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Domain.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\EntityFramework.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\EntityFramework.SqlServer.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Domain.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\EntityFramework.xml
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\EntityFramework.SqlServer.xml
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\obj\Debug\Persistance.csprojResolveAssemblyReference.cache
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\obj\Debug\Persistance.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\obj\Debug\Persistance.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Application.dll
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Application.pdb
-c:\users\omar el-essiely\documents\visual studio 2017\Projects\MaterialTracking\Persistance\bin\Debug\Application.dll.config
-C:\Users\Omar El-Essiely\Documents\Visual Studio 2017\Projects\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.FirstIteration.resources
-C:\Users\Omar El-Essiely\Documents\Visual Studio 2017\Projects\MaterialTracking\Persistance\obj\Debug\Persistance.csproj.GenerateResource.Cache
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.FirstIteration.resources
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.UpdateProject.resources
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.AddInstallment.resources
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.RFQIPR.resources
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.csproj.GenerateResource.Cache
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.csprojResolveAssemblyReference.cache
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Persistance.dll.config
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Persistance.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Persistance.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\EntityFramework.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Application.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Domain.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Common.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Application.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Application.dll.config
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Domain.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\EntityFramework.xml
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\bin\Debug\MT.Common.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\MT.Persistance.dll
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\MT.Persistance.pdb
+C:\Users\OmarElEssiely\Source\Workspaces\MaterialTracking\MaterialTracking\Persistance\obj\Debug\Persistance.Migrations.RFQandIPR.resources

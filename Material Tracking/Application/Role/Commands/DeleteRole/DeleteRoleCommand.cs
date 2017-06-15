@@ -7,7 +7,7 @@ using Application.Interfaces;
 
 namespace Application.Role.Commands.DeleteRole
 {
-    class DeleteRoleCommand:IDeleteRoleCommand
+    public class DeleteRoleCommand:IDeleteRoleCommand
     {
         private readonly IDatabaseService _database;
 

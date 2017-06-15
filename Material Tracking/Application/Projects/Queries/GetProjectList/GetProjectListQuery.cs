@@ -28,7 +28,9 @@ namespace Application.Projects.Queries.GetProjectList
                     CreationDate = p.CreationDate,
                     Status = p.Status,
                     Description = p.Description,
-                    ProjectSapNumber = p.ProjectSapNumber
+                    ProjectSapNumber = p.ProjectSapNumber,
+                    ClosedDate = p.ClosedDate,
+                    Budget = p.Budget
                 });
             return projects.ToList();
         }

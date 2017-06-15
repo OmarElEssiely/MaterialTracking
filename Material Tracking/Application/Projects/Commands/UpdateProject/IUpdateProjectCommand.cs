@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Projects.Commands.UpdateProject
 {
-    interface IUpdateProjectCommand
+    public interface IUpdateProjectCommand
     {
         void Execute(UpdateProjectModel model);
 

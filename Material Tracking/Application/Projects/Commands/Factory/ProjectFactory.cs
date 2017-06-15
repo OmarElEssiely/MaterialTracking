@@ -10,7 +10,7 @@ namespace Application.Projects.Commands.Factory
     public class ProjectFactory:IProjectFactory
     {
         public Project Create(string customerName, string projectSapNumber, DateTime startDate, DateTime endDate, DateTime creationDate,
-            string description, string status)
+            string description, string status,decimal budget)
         {
             var project = new Project()
             {
@@ -20,7 +20,8 @@ namespace Application.Projects.Commands.Factory
                 Description = description,
                 EndDate = endDate,
                 StartDate = startDate,
-                Status = status
+                Status = status,
+                Budget = budget
             };
             return project;
         }
